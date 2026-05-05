@@ -1,6 +1,6 @@
 {
   "name": "@miguelhonorio/cnpj-alfanumerico",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Validacao, calculo e formatacao de CNPJ numerico e alfanumerico conforme regras da Receita Federal.",
   "type": "module",
   "main": "./dist/index.js",
