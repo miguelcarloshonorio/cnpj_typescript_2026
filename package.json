@@ -1,0 +1,45 @@
+{
+  "name": "@miguelhonorio/cnpj-alfanumerico",
+  "version": "0.1.0",
+  "description": "Validacao, calculo e formatacao de CNPJ numerico e alfanumerico conforme regras da Receita Federal.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "check": "npm run build && npm run test",
+    "prepublishOnly": "npm run check",
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miguelcarloshonorio/cnpj_typescript_2026.git"
+  },
+  "keywords": [
+    "cnpj",
+    "cnpj-alfanumerico",
+    "receita-federal",
+    "brasil",
+    "validacao"
+  ],
+  "author": "Miguel C. Honorio <miguel@prosulti.com.br>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miguelcarloshonorio/cnpj_typescript_2026/issues"
+  },
+  "homepage": "https://github.com/miguelcarloshonorio/cnpj_typescript_2026#readme",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
