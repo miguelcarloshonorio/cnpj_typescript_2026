@@ -1,6 +1,6 @@
 {
   "name": "@micajeho/cnpj-alfanumerico",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Validacao, calculo e formatacao de CNPJ numerico e alfanumerico conforme regras da Receita Federal.",
   "type": "module",
   "main": "./dist/index.js",
@@ -8,7 +8,8 @@
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/index.js"
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
     }
   },
   "files": [
